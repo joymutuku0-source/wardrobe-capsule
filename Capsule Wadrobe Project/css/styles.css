@@ -150,3 +150,22 @@ button:hover{
     background-color: #b05e66;
     color: #ffffff;
 }
+@media screen and (max-width: 768px) {
+    .container, .main-card, table{
+        width:100%;
+        max-width:100%;
+        box-sizing: border-box;
+    }
+    .row, .grid-container, .flex-layout{
+        display:flex;
+        flex-direction:column;
+    }
+    h1, .title{
+        font-size: 1.8rem;
+        text-align:center;
+    }
+    p, a, li {
+        font-size:1rem;
+        line-height:1.5:
+}
+}
